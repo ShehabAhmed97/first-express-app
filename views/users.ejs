@@ -1,0 +1,15 @@
+<%- include("partials/header") -%>
+
+<ul>
+  <% users.forEach(user => { %>
+  <li class="user"><%- user.name %></li>
+  <% }) %>
+</ul>
+
+<% if(false) { %>
+<h1>True</h1>
+<% }else{ %>
+<h1>False</h1>
+<% } %>
+
+<%- include("partials/footer") -%>
